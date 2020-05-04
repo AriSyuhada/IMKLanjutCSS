@@ -1,0 +1,185 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #ECFCFF;
+    margin: 0 ;
+    font-family: 'Comfortaa', cursive;
+}
+.navbar img {
+    background-color: #5edfff;
+    padding: 5px;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.navbar ul {
+    font-weight: bold;
+    font-size: 2;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #b2fcff;
+}
+.navbar li {
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #d7feff;
+}
+.topContainer {
+    padding: 0;
+    padding-top: 0;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    background-color: #b2fcff;;
+}
+.wallpaper {
+    margin-top: 100px;
+    width: 550px;
+    height: 450px;
+}
+.topContainer h1 {
+    font-size: 468.75%;
+    font-family: 'Kalam', cursive;
+    margin: 0 auto; 
+}
+.topContainer p {
+    font-weight: bold;
+    font-size: 187.5%;
+    font-family: 'Mali', cursive;
+    margin: 0 auto;
+}
+.greetings {
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    margin-top: 30px;
+}
+.greetings img {
+    background-color: #3e64ff;
+    padding: 5px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.greetings h2 {
+    margin: 0;
+    font-size: 60px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+}
+.greetings p {
+    width: 50%;
+    margin: 0 auto;
+}
+.profile {
+    font-weight: bold;
+    line-height: 2;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile h2 {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.profile img {
+    background-color: #3e64ff;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.profile h3 {
+    margin: 60px 0 0 0;
+}
+.profile p {
+    margin: 20px 0 0 0;
+}
+.pendidikan {
+    text-align: left;
+    margin: 70px auto;
+}
+.pendidikan img {
+    margin-right: 50px;
+    float: left;
+}
+.organisasi {
+    text-align: left;
+    margin: 120px auto;
+}
+.organisasi img {
+    margin-left: 50px;
+    float: right;
+}
+.keahlian {
+    text-align: left;
+    margin: 120px auto;
+}
+.keahlian img {
+    margin-right: 50px;
+    float: left;
+}
+.bottomContainer {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    background-color: #3e64ff;
+    margin: 0;
+}
+.bottomNavbar ul {
+    width: 29%;
+    margin: 0 auto;
+    display: block;
+    font-size: 2;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #3e64ff;
+}
+.bottomNavbar li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bottomNavbar li a:hover {
+    background-color: #6685ff;
+}
+.socialMedia ul {
+    width: 12.5%;
+    margin: 0 auto;
+    display: block;
+    font-size: 2;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #3e64ff;
+}
+.socialMedia li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.socialMedia li a:hover {
+    background-color: #6685ff;
+}
+ 

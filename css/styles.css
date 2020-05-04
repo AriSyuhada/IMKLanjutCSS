@@ -1,5 +1,4 @@
 body {
-    font-family: 'Comfortaa', cursive;
     background-color: #ECFCFF;
     margin: 0 ;
     font-family: 'Comfortaa', cursive;
@@ -34,6 +33,22 @@ body {
 .navbar li a:hover {
     background-color: #d7feff;
 }
+@media(max-width: 635px) 
+{
+    .navbar img {
+        padding: 2px;
+        width: 25px;
+        height: 25px;
+    }
+    .navbar ul {
+        font-weight: bold;
+        font-size: 7px;
+        padding: 1.5px;
+    }
+    .navbar li a {
+        padding: 5px 7px;
+    }
+}
 .topContainer {
     padding: 0;
     padding-top: 0;
@@ -48,15 +63,29 @@ body {
     height: 450px;
 }
 .topContainer h1 {
-    font-size: 468.75%;
+    font-size: 75px;
     font-family: 'Kalam', cursive;
     margin: 0 auto; 
 }
 .topContainer p {
     font-weight: bold;
-    font-size: 187.5%;
+    font-size: 30px;
     font-family: 'Mali', cursive;
     margin: 0 auto;
+}
+@media(max-width: 635px) 
+{
+    .wallpaper {
+        margin-top: 30px;
+        width: 225px;
+        height: 175px;
+    }
+    .topContainer h1 {
+        font-size: 22.5px;
+    }
+    .topContainer p {
+        font-size: 10px;
+    }
 }
 .greetings {
     font-weight: bold;
@@ -80,6 +109,27 @@ body {
 .greetings p {
     width: 50%;
     margin: 0 auto;
+}
+@media(max-width: 635px) 
+{
+    .greetings {
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    .greetings img {
+        padding: 2px;
+        width: 80px;
+        height: 80px;
+    }
+    .greetings h2 {
+        margin: 0;
+        font-size: 20px;
+    }
+    .greetings p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 7px;
+    }
 }
 .profile {
     font-weight: bold;
@@ -133,53 +183,98 @@ body {
     margin-right: 50px;
     float: left;
 }
-.bottomContainer {
+@media(max-width: 635px) {
+    .profile {
+        margin-bottom: 35px;
+        width: 80%;
+        line-height: 1.5;
+    }
+    .profile h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .profile img {
+        padding: 2px;
+        width: 60px;
+        height: 60px;
+        
+    }
+    .profile h3 {
+        font-size: 10px;
+        margin: 7px 0 0 0;
+    }
+    .profile p {
+        font-size: 6px;
+        margin: 4px 0 0 0;
+    }.pendidikan {
+        margin: 16px auto;
+    }
+    .pendidikan img {
+        margin-right: 10px;
+    }
+    .organisasi {
+        margin: 20px auto;
+    }
+    .organisasi img {
+        margin-left: 10px;
+    }
+    .keahlian {
+        margin: 20px auto;
+    }
+    .keahlian img {
+        margin-right: 10px;
+    }
+}
+footer {
+    text-align: center;
+    background-color: #3e64ff;
+    padding: 30px;
+}
+footer a{
+    text-decoration: none;
+}
+.navbar-bottom {
+    margin-bottom: 15px;
+}
+.navbar-bottom a {
+    color: white;
     font-weight: bold;
-    text-align: center;
-    position: relative;
-    background-color: #3e64ff;
-    margin: 0;
-}
-.bottomNavbar ul {
-    width: 29%;
-    margin: 0 auto;
-    display: block;
-    font-size: 2;
-    list-style-type: none;
     padding: 10px;
-    overflow: hidden;
-    background-color: #3e64ff;
+    font-size: 20px;
+    margin: 8px 5px;
 }
-.bottomNavbar li a {
-    float: left;
-    display: block;
+.navbar-bottom a:hover {
+    background-color: #6d87f1;
+}
+.social-media a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.bottomNavbar li a:hover {
-    background-color: #6685ff;
-}
-.socialMedia ul {
-    width: 12.5%;
-    margin: 0 auto;
-    display: block;
-    font-size: 2;
-    list-style-type: none;
+    font-weight: bold;
     padding: 10px;
-    overflow: hidden;
-    background-color: #3e64ff;
+    font-size: 20px;
+    margin: 8px 10px;
 }
-.socialMedia li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.social-media a:hover {
+    background-color: #6d87f1;
 }
-.socialMedia li a:hover {
-    background-color: #6685ff;
+@media(max-width: 635px)
+{
+    footer {
+        padding: 10px;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    .navbar-bottom {
+        margin-bottom: 8px;
+    }
+    .navbar-bottom a {
+        padding: 3px;
+        font-size: 7px;
+        margin: 0 1px;
+    }
+    .social-media a {
+        padding: 3px;
+        font-size: 7px;
+        margin: 0 3px;
+    }
 }
- 

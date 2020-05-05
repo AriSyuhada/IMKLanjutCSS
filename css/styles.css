@@ -134,7 +134,7 @@ body {
 .profile {
     font-weight: bold;
     line-height: 2;
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
 }
@@ -161,7 +161,7 @@ body {
 }
 .pendidikan {
     text-align: left;
-    margin: 70px auto;
+    margin: 70px auto 120px auto;
 }
 .pendidikan img {
     margin-right: 50px;
@@ -207,7 +207,7 @@ body {
         font-size: 6px;
         margin: 4px 0 0 0;
     }.pendidikan {
-        margin: 16px auto;
+        margin: 16px auto 20px auto;
     }
     .pendidikan img {
         margin-right: 10px;
@@ -240,7 +240,7 @@ footer a{
     color: white;
     font-weight: bold;
     padding: 10px;
-    font-size: 20px;
+    font-size: 17px;
     margin: 8px 5px;
 }
 .navbar-bottom a:hover {
@@ -250,7 +250,7 @@ footer a{
     color: white;
     font-weight: bold;
     padding: 10px;
-    font-size: 20px;
+    font-size: 17px;
     margin: 8px 10px;
 }
 .social-media a:hover {
